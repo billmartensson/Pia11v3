@@ -11,6 +11,8 @@
 		ABB1FA4D28E57CB100A0D51A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1FA4C28E57CB100A0D51A /* ContentView.swift */; };
 		ABB1FA4F28E57CB300A0D51A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB1FA4E28E57CB300A0D51A /* Assets.xcassets */; };
 		ABB1FA5228E57CB300A0D51A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB1FA5128E57CB300A0D51A /* Preview Assets.xcassets */; };
+		ABB1FA5928E58D3000A0D51A /* CalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1FA5828E58D3000A0D51A /* CalcView.swift */; };
+		ABB1FA5B28E5B39E00A0D51A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1FA5A28E5B39E00A0D51A /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		ABB1FA4C28E57CB100A0D51A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ABB1FA4E28E57CB300A0D51A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABB1FA5128E57CB300A0D51A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABB1FA5828E58D3000A0D51A /* CalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcView.swift; sourceTree = "<group>"; };
+		ABB1FA5A28E5B39E00A0D51A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				ABB1FA4A28E57CB100A0D51A /* Pia11v3App.swift */,
 				ABB1FA4C28E57CB100A0D51A /* ContentView.swift */,
+				ABB1FA5828E58D3000A0D51A /* CalcView.swift */,
+				ABB1FA5A28E5B39E00A0D51A /* ProfileView.swift */,
 				ABB1FA4E28E57CB300A0D51A /* Assets.xcassets */,
 				ABB1FA5028E57CB300A0D51A /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB1FA5B28E5B39E00A0D51A /* ProfileView.swift in Sources */,
 				ABB1FA4D28E57CB100A0D51A /* ContentView.swift in Sources */,
 				ABB1FA4B28E57CB100A0D51A /* Pia11v3App.swift in Sources */,
+				ABB1FA5928E58D3000A0D51A /* CalcView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

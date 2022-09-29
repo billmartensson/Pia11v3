@@ -8,12 +8,48 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var fancystuff = "Banan"
+    
+    @State var siffra = 1
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Hello, world!!!!!")
+                .padding()
+            Text(fancystuff)
+                .font(.title)
+                .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            
+            Button("Klicka här") {
+                print("Nu har vi klickat")
+                fancystuff = "Apelsin"
+            }
+            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            
+            Button(action: {
+                fancystuff = "Kiwi"
+            }, label: {
+                Text("Mera klick")
+            })
+            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            
+            if(siffra > 5) {
+                Text("STOR SIFFRA!!")
+                    .font(.title)
+                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            }
+            
+            
+            Button(String(siffra)) {
+                siffra = siffra + 1
+                
+                if(siffra == 10) {
+                    siffra = 1
+                }
+            }
+            
+            
         }
         .padding()
     }
